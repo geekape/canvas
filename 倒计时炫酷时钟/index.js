@@ -52,24 +52,24 @@ function upDate() {
 	if(nextSeconds != curSeconds) {
 		// 计算彩色小球坐标
 		if(parseInt(curHours/10) != parseInt(nextHours/10)) {
-			addBalls(MARGIN_LEFT+0, MARGIN_TOP, parseInt(curHours/10));
+			addBalls(MARGIN_LEFT+0, MARGIN_TOP, parseInt(nextHours/10));
 		}
 		if(parseInt(curHours%10) != parseInt(nextHours%10)) {
-			addBalls(MARGIN_LEFT+15*(RADIUS+1), MARGIN_TOP, parseInt(curHours%10));
+			addBalls(MARGIN_LEFT+15*(RADIUS+1), MARGIN_TOP, parseInt(nextHours%10));
 		}
 
 		if(parseInt(curMinutes/10) != parseInt(nextMinutes/10)) {
-			addBalls(MARGIN_LEFT+38*(RADIUS+1), MARGIN_TOP, parseInt(curMinutes/10));
+			addBalls(MARGIN_LEFT+38*(RADIUS+1), MARGIN_TOP, parseInt(nextMinutes/10));
 		}
 		if(parseInt(curMinutes%10) != parseInt(nextMinutes%10)) {
-			addBalls(MARGIN_LEFT+53*(RADIUS+1), MARGIN_TOP, parseInt(curMinutes%10));
+			addBalls(MARGIN_LEFT+53*(RADIUS+1), MARGIN_TOP, parseInt(nextMinutes%10));
 		}
 
 		if(parseInt(curSeconds/10) != parseInt(nextSeconds/10)) {
-			addBalls(MARGIN_LEFT+76*(RADIUS+1), MARGIN_TOP, parseInt(curSeconds/10));
+			addBalls(MARGIN_LEFT+76*(RADIUS+1), MARGIN_TOP, parseInt(nextSeconds/10));
 		}
 		if(parseInt(curSeconds%10) != parseInt(nextSeconds%10)) {
-			addBalls(MARGIN_LEFT+91*(RADIUS+1), MARGIN_TOP, parseInt(curSeconds%10));
+			addBalls(MARGIN_LEFT+91*(RADIUS+1), MARGIN_TOP, parseInt(nextSeconds%10));
 		}
 
 		curShowTimeSeconds = nextShowTimeSeconds;
