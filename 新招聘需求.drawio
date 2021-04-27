@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-27T06:04:15.008Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="ftWLFAS8gqQRWOwCmifG" version="14.6.6" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-27T06:04:25.767Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.72 Safari/537.36 Edg/90.0.818.42" etag="K-eJKn4NMyWzS7m5sn1u" version="14.6.6" type="github" pages="3">
   <diagram name="新招聘需求" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
     <mxGraphModel dx="1673" dy="896" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="#ffffff" math="0" shadow="0">
       <root>
@@ -297,6 +297,14 @@
         <mxCell id="srA5a1xrvb3vtrsg9wsX-42" value="结束" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=2;sketch=1;fillWeight=2;hachureGap=8;fillStyle=dots;" vertex="1" parent="NTDzXt_VZpDIA1mRWmoU-1">
           <mxGeometry x="1700" y="640" width="120" height="60" as="geometry" />
         </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="g62VR5Mjv4uEaiwqmSlz" name="微信分享流程">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Mp0R8Emke_ky8qZiJ24A-0" />
+        <mxCell id="Mp0R8Emke_ky8qZiJ24A-1" parent="Mp0R8Emke_ky8qZiJ24A-0" />
       </root>
     </mxGraphModel>
   </diagram>
